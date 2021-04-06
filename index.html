@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Space X Landing</title>
+    	<script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+    	<script src="main.js" defer></script>
+    	<link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+   		<link href="styles.css" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<img src="image/logo.png" alt="Spacex" />
+		</header>
+		<button id="kennedy">Kennedy Space Center</button>
+		<button id="edwards">Edwards Air Force Base</button>
+    	<div id="map"></div>
+		<br>
+		<div id=watherOne>
+			<h1>Kennedy Space Center Weather</h1>
+			<article id="weatherKennedy"></article>
+		</div>	
+		<br>
+		<div id=weatherTwo>
+			<h1>Edwards Air Force Base Weather</h1>
+			<article id="weatherEdwards"></article>
+		</div>
+	</body>
+</html>

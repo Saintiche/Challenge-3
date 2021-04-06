@@ -1,0 +1,79 @@
+body {
+    margin: 5vh 5vw;
+    background-color: black;
+	font-family: 'Lato', sans-serif;
+  }
+#map {
+    height: 50vh;
+    width: 90vw;
+  }
+
+img{
+	width: 100%;
+	margin: auto;
+}
+
+button{
+   color: white;
+   background-color:black;
+   border-color: white;
+   border-width: thick;
+   display: block;
+   position: relative;
+   width: 60%;
+   height: 80px;
+   margin: auto;
+   font-size: 1em;
+   
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+
+article{
+	width: 400px;
+	margin: auto;
+	text-align: center;
+	background-color: #fffdfd18;
+	border-radius: 6px;
+	color: rgb(255, 255, 255);
+	font-size: 1.5em;
+}
+
+@media screen and (min-width: 768px){
+	h1{
+		text-align: center;
+		font-size: 2em;
+	  }
+}
+@media screen and (min-width: 1024px){
+	
+	img{
+		width: 50%;
+		display: block;
+		
+	}
+	button{
+		width: 300px;
+		font-size: 1.5em;
+	}
+		div{
+			display: flex;
+		}
+}
+
+@media screen and (min-width: 1360px){
+	img{
+		width: 30%;
+	}
+    button{
+		display: inline;
+		justify-content: space-between;
+		
+	}
+}
